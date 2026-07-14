@@ -112,6 +112,10 @@ li {
     text-align: justify;
 }
 
+li ul {
+    margin: 4pt 0 4pt 0;
+}
+
 li::before {
     content: "\2022";
     position: absolute;
