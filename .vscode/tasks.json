@@ -14,7 +14,7 @@
             },
             "problemMatcher": [],
             "presentation": {
-                "reveal": "always",
+                "reveal": "never",
                 "panel": "shared"
             }
         },
@@ -28,7 +28,7 @@
             "group": "build",
             "problemMatcher": [],
             "presentation": {
-                "reveal": "always",
+                "reveal": "never",
                 "panel": "shared"
             }
         }
