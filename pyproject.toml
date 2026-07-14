@@ -1,0 +1,10 @@
+[project]
+name = "markdown-to-pdf"
+version = "0.1.0"
+description = "Markdown -> PDF converter"
+requires-python = ">=3.11"
+dependencies = [
+    "jinja2==3.1.6",
+    "markdown==3.10.2",
+    "weasyprint==69.0",
+]
