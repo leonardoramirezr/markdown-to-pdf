@@ -88,6 +88,9 @@ def main() -> None:
         if not md_path.exists():
             print(f"Skipping {md_path}: not found", file=sys.stderr)
             continue
+        if md_path.suffix.lower() != ".md":
+            print(f"Skipping {md_path}: not a .md file", file=sys.stderr)
+            continue
         pdf_path = render_pdf(md_path, output_dir, args.template)
         print(f"{md_path} -> {pdf_path}")
 
